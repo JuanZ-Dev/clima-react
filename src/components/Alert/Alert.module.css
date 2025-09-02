@@ -1,9 +1,21 @@
 .alert {
+  align-self: center;
   text-align: center;
-  margin-bottom: 2rem;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 1.8rem;
-  background-color: #ff4444a6;
-  padding: 0.5rem;
+  background-color: #ff1a1a8b;
+  padding: 0.5rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .alert {
+    justify-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.8rem;
+    background-color: #ff1a1a8b;
+    padding: 0.5rem 3rem;
+  }
 }

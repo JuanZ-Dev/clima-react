@@ -10,7 +10,7 @@
   gap: 3rem;
   width: 95%;
   max-width: 100rem;
-  margin: 0 auto;
+  margin: 5rem auto 0;
 }
 
 @media (min-width: 768px) {
